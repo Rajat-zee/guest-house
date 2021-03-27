@@ -26,7 +26,7 @@ SECRET_KEY = '47^7%$5l_jx94we%qxtnf&b%re@wa8z4u)dhmrb%09os4$-&k7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://guest-house-reservation.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['guest-house-reservation.herokuapp.com','127.0.0.1']
 
 
 # Application definition
