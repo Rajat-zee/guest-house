@@ -1,0 +1,17 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+
+.banner{
+	height: 200vh;
+	width: 100%;
+	background:url('Ac.jpg');
+	background-position: top;
+	background-size: contain;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}

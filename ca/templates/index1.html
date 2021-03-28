@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewreport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Home
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="{% static 'ca/css/index1.css' %}">
+</head>
+<body>
+	<div class="container-fluid banner">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-md">
+					<div class="navbar-brand">Canara Bank</div>
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="accounts/logout">Log Out</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact">CONTACT US</a>
+						</li>
+						<div class="re">
+						<a class="re-item" href="">
+							<a class="nav-link" href="room_list">RESERVATION</a>
+						</a>
+						</div>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-8 offset-md-2 info">
+				<h1 class="text-center">CBOA, Chandigarh</h1>
+				<p class="text-center">
+					Rest is neccessary
+				</p>
+				<div class='t'>
+					<p>*Guest house services only<br> for the members of CBOA</p>
+				</div>
+                {% comment %} <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Branch
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                <li><a href="room_list_view.html">Chandigarh</a></li>
+                <li><a href="#">Ahemdabad</a></li>
+                </ul>
+                </div> {% endcomment %}
+				{% comment %} <a href="#" class="btn btn-md text-center">Branch</a>  {% endcomment %}
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

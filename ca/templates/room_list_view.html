@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotelina</title>
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="{% static 'ca/css/room_list_view.css' %}">
+    {% if messages %}
+        <ul class="messages">
+    {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+        </ul>
+    {% endif %}
+</head>
+
+<body>
+    <!-- Brand -->
+    <h1 id="brand">Rooms</h1>
+    <div class="book">
+                <a href="{% url 'ca:BookingListView' %}"><i class="fas fa-arrow-alt-circle-left">My Bookings</i></a>
+            </div>
+
+    <!-- Main Content -->
+    {% comment %} <div class="content">
+    {%for rno, room_url in room_list %}  
+        <div class="room">
+            <a href="{{room_url}}">
+                <img
+                    src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+
+                <h2>{{rno}}</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi</p>
+            </a>
+        </div>
+        {% endfor %} 
+
+    </div> {% endcomment %}
+    <div class="content">
+
+        <div class="room">
+            <a href="room/1">
+                <img
+                    src="{% static 'ca/css/img1.jpg' %}">
+
+                <h2>Alpha</h2>
+                <p>King Size Double Bed</p>
+            </a>
+        </div>
+
+        <div class="room">
+            <a href="room/2">
+                <img
+                    src="{% static 'ca/css/img2.jpg' %}">
+
+                <h2>Beta</h2>
+                <p>Queen Size Double bed</p>
+            </a>
+        </div>
+
+        <div class="room">
+            <a href="room/3">
+                <img
+                    src="{% static 'ca/css/img3.jpg' %}">
+
+                <h2>Gamma</h2>
+                <p>Full Size double bed</p>
+            </a>
+        </div>
+
+        
+
+        
+
+    </div>
+</body>
+
+</html>
