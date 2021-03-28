@@ -1,6 +1,6 @@
 # guest-house-reservation using django
 
-![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+![grab-landing-page](https://github.com/Rajat-zee/guest-house/blob/final/Images/gif.gif)
 ![Project Image](project-image-url)
 ![Project Image](project-image-url)
 
