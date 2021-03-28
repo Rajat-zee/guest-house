@@ -1,8 +1,8 @@
 # guest-house-reservation using django
 
 ![grab-landing-page](https://github.com/Rajat-zee/guest-house/blob/final/Images/gif.gif)
-![Project Image](project-image-url)
-![Project Image](project-image-url)
+![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img1.png)
+![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img2.png)
 
 
 ---
