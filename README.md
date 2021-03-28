@@ -2,10 +2,6 @@
 ---
 ![grab-landing-page](https://github.com/Rajat-zee/guest-house/blob/final/Images/gif.gif)
 ---
-![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img1.png)
----
-![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img2.png)
----
 
 
 ## Description
@@ -26,6 +22,11 @@ This Webite was created for a **Real Client** who works in Canara Bank HQ Chandi
 
 ---
 
+---
+![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img1.png)
+---
+![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img2.png)
+---
 
 ## Author Info
 
