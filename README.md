@@ -18,9 +18,15 @@ This Webite was created for a **Real Client** who works in Canara Bank HQ Chandi
 - Backend: Django , DjangoRest(APIs)
 - Frontend: HTML , CSS , Bootstrap
 - Database: SQLlite
-- Used Heroku to Deploy online
+- Used Heroku to Deploy online(guest-house-reservation.herokuapp.com)
 
 ---
+
+#### URLs
+
+- /home [landing page]
+- /api  [APIs]
+- /home/accounts
 
 ---
 ![Project Image](https://github.com/Rajat-zee/guest-house/blob/final/Images/img1.png)
