@@ -1,4 +1,4 @@
-# guest-house-reservation using django
+# Guest-house-reservation using django
 ---
 ![grab-landing-page](https://github.com/Rajat-zee/guest-house/blob/final/Images/gif.gif)
 ---
