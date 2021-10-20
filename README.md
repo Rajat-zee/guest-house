@@ -36,6 +36,6 @@ This Webite was created for a **Real Client** who works in Canara Bank HQ Chandi
 
 ## Author Info
 
-- Linkedin - 
-- Website - 
+- Linkedin - https://www.linkedin.com/in/rajat-kashyap-a35b59201/
+- Website - https://rajat-zee.github.io/Portfolio
 
