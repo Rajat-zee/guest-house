@@ -1,6 +1,6 @@
 asgiref
 boto3
-botocore=
+botocore
 certifi
 cffi
 chardet
