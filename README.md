@@ -39,3 +39,4 @@ This Webite was created for a **Real Client** who works in Canara Bank HQ Chandi
 - Linkedin - https://www.linkedin.com/in/rajat-kashyap-a35b59201/
 - Website - https://rajat-zee.github.io/Portfolio
 
+## Presentation and Project report included in; search alias "1810991554-Rajat-LOP- ppt pdf" and "1810991554-Rajat-LOP- Report pdf"
